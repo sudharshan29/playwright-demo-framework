@@ -1,0 +1,16 @@
+{
+  "name": "playwright-demo-framework",
+  "version": "1.0.0",
+  "description": "Playwright (JavaScript) demo framework: Page Object Model, fixtures, UI and API tests, parallel execution, HTML report and CI.",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --project=ui",
+    "test:api": "playwright test --project=api",
+    "test:headed": "playwright test --project=ui --headed",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.60.0"
+  }
+}
